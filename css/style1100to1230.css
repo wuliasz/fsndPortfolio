@@ -1,7 +1,7 @@
 /* Style sheet for view ports from 1100 px to 1230 px */
 
 * {
-	font-family: 'Pavanam', Verdana, Geneva, Arial, sans-serif;;
+	font-family: 'Pavanam', Arial, sans-serif;
 	font-size: 22px;
 	font-weight: 200;
 }
@@ -50,6 +50,7 @@ hr {
 .main-image {
 	border: 20px;
 	float: left;
+	overflow: auto;
 }
 
 .content {

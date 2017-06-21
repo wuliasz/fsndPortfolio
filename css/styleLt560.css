@@ -2,7 +2,7 @@
    Styles are listed in the order they are referenced on index.hmtl */
 
 * {
-	font-family: 'Pavanam', Verdana, Geneva, Arial, sans-serif;
+	font-family: 'Pavanam', Arial, sans-serif;
 	font-size: 22px;
 	font-weight: 200;
 }
@@ -99,4 +99,5 @@ hr {
 	color: #2d3c49;
 	font-size: 10px;
 	text-align: center;
+	padding: 1.5em;
 }
