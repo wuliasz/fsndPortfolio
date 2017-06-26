@@ -8,11 +8,12 @@
 }
 
 img, embed, object, video {
-	max-width: 100%;
+	max-width: 98%;
 }
 
 body {
 	width: 98%;
+	overflow: hidden;
 }
 
 .headerBar {
@@ -96,8 +97,10 @@ hr {
 
 .featured-work-a {
 	display: flex;
+	flex-wrap: wrap;
 	color: #2d3c49;
 	font-size: 10px;
 	text-align: center;
-	padding: 1.5em;
+	padding: 1em;
+	width: 35%;
 }
