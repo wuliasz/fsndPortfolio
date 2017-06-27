@@ -2,21 +2,24 @@
    Styles are listed in the order they are referenced on index.hmtl */
 
 * {
-	font-family: 'Pavanam', Arial, sans-serif;
+	font-family: "Pavanam", Arial, sans-serif;
 	font-size: 22px;
 	font-weight: 200;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
 	max-width: 98%;
 }
 
 body {
 	width: 98%;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
-.headerBar {
+.header-bar {
 	width: 98%;
 }
 
@@ -30,7 +33,7 @@ body {
 	color: #2d3c49;
 	font-size: 24px;
 	text-align: right;
-	margin: 0em 0em 0em 3em;
+	padding: 0px 5px 0px 0px
 }
 
 .my-description {
@@ -38,6 +41,7 @@ body {
 	color: #2d3c49;
 	font-size: 14px;
 	text-align: right;
+	padding: 0px 5px 0px 0px
 }
 
 hr {

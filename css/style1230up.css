@@ -1,20 +1,23 @@
 /*  Style sheet for view ports greater than 1230 px */
 
 * {
-	font-family: 'Pavanam', Arial, sans-serif;
+	font-family: "Pavanam", Arial, sans-serif;
 	font-size: 22px;
 	font-weight: 200;
 }
 
-img, embed, object, video {
-	max-width: 100%;
+img,
+embed,
+object,
+video {
+	max-width: 98%;
 }
 
 body {
 	width: 98%;
 }
 
-.headerBar {
+.header-bar {
 	width: 98%;
 }
 
